@@ -69,20 +69,19 @@ public class FoodItemAdapter extends RecyclerView.Adapter<FoodItemAdapter.foodIt
         viewHolder.fPrice.setText(mFoodPrice.get(position));
         viewHolder.fTotalPrice.setText(mFoodTotalPrice.get(position));
 
-        viewHolder.fMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(mContext, "Minus Button Clicked. ", Toast.LENGTH_SHORT).show();
-//                viewHolder.fTotalQty.setText(count--);
-            }
-        });
-        viewHolder.fPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(mContext, "Plus Button Clicked. ", Toast.LENGTH_SHORT).show();
-//                viewHolder.fTotalQty.setText(count++);
-            }
-        });
+//        viewHolder.fMinus.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(mContext, "Minus Button Clicked. ", Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//        viewHolder.fPlus.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(mContext, "Plus Button Clicked. ", Toast.LENGTH_SHORT).show();
+//
+//            }
+//        });
 //        viewHolder.fTotalQty.setText(0);
         viewHolder.fAddToCart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -125,7 +124,7 @@ public class FoodItemAdapter extends RecyclerView.Adapter<FoodItemAdapter.foodIt
         TextView fTotalPrice;
         ImageView fMinus;
         ImageView fPlus;
-        TextView fTotalQty;
+      //  TextView fTotalQty;
         Button fAddToCart;
 
         public foodItemsViewHolder(@NonNull View itemView) {
@@ -137,9 +136,9 @@ public class FoodItemAdapter extends RecyclerView.Adapter<FoodItemAdapter.foodIt
             fQty = itemView.findViewById(R.id.txtFoodQty);
             fPrice = itemView.findViewById(R.id.txtFoodPrice);
             fTotalPrice = itemView.findViewById(R.id.txtFoodTotalPrice);
-            fMinus = itemView.findViewById(R.id.ivMinus);
-            fPlus = itemView.findViewById(R.id.ivPlus);
-            fTotalQty = itemView.findViewById(R.id.txtTotalQty);
+         //   fMinus = itemView.findViewById(R.id.ivMinus);
+         //   fPlus = itemView.findViewById(R.id.ivPlus);
+          //  fTotalQty = itemView.findViewById(R.id.txtTotalQty);
             fAddToCart = itemView.findViewById(R.id.btnAddToCart);
         }
     }

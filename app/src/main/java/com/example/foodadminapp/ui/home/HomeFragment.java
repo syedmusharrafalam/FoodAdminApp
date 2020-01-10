@@ -101,7 +101,7 @@ public class HomeFragment extends Fragment {
         mPrice.add("Price per Plate: 180");
         mTotalPrice.add("Total: 0.0 Rupees");
 
-        initRecyclerView();
+       // initRecyclerView();
     }
 
     private void initRecyclerView(){

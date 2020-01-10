@@ -82,36 +82,7 @@
             android:orientation="vertical"
             android:layout_marginLeft="8dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/ivMinus"
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/icon_minus"/>
-
-                <TextView
-                    android:id="@+id/txtTotalQty"
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:text="0"
-                    android:gravity="center"
-                    android:textSize="22sp"
-                    android:textColor="#000"/>
-
-                <ImageView
-                    android:id="@+id/ivPlus"
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/icon_plus"/>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
